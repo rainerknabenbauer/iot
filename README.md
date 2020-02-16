@@ -6,7 +6,7 @@ Die Arduino IDE kommt mit ein paar vorinstallierten Boards. Welche das sind, kö
 
 Damit wir mit der Arduino IDE auch WeMos D1 Mini ansteuern können, müssen wir die Unterstützung für den `ESP8266` Controller nachinstallieren.  
 
-##### Make USB great again
+#### Make USB great again
 
 Da wir das Gerät per USB betreiben möchten, müssen wir zu allererst den `CH340 Treiber` installieren:
 ```https://docs.wemos.cc/en/latest/ch340_driver.html```
@@ -17,14 +17,14 @@ _Wer sich für die ganzen nerdigen Details des `CH340` interessiert, kann sich g
 _https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF_
 
 
-##### Board installieren
+#### Board installieren
 
 Als nächstes müssen wir das Board `ESP8266` hinzufügen. Damit bekommen wir u. a. WiFi Unterstützung für unseren Chip. Zum Glück gibt es zur Installation schon eine super Anleitung. Bitte beachtet im Speziellen _Prerequisites_ und _Instructions_
 ```https://arduino-esp8266.readthedocs.io/en/2.6.3/installing.html```
 
 HINWEIS: Ja, ihr müsst Python 3 installieren. Damit wird das Board _'installiert'_.
 
-##### Board aktivieren
+#### Board aktivieren
 
 Nach der ESP8266 Installation könnt ihr unter `Tools -> Boards` nun das Board `LOLIN(WEMOS) D1 R2 & mini` auswählen.
 
@@ -36,7 +36,7 @@ Im Anschluss könnt ihr über `Tools -> Port` den WeMos auswählen.
 4.1 Wenn es mehrere neue Ports gibt, liegt das am Mac Adapter. Eventuell: `/dev/cu.wchusbserial141230`
 
 
-##### HeLLo woRlD
+#### HeLLo woRlD
 
 In der Softwareentwicklung nennt sich der grundlegendste Systemtest 'Hello World'. Wenn man mit Hardware bastelt, blinkt dann meist eine LED. Genau das machen wir jetzt.
 
@@ -49,8 +49,8 @@ In der Softwareentwicklung nennt sich der grundlegendste Systemtest 'Hello World
 Upload kompiliert den Sketch und lädt das Programm auf den Kontroller. Sobald ihr `Writing at 0x00000000... (8 %)` seht, seid ihr starklar! In der Voreinstellung blinkt die LED nun im Sekundentakt - sobald Upload und Neustart abgeschlossen ist.
 
 
-##### Troubleshooting
-###### Ich find den richtigen Port nicht ¯\_(ツ)_/¯
+#### Troubleshooting
+##### Ich find den richtigen Port nicht ¯\_(ツ)_/¯
 Vorbedingung:
 - Ihr wisst, wo sich der Upload Button befindet. [Bild](./resources/arduino-ide-explained.png)
 - [Beispielcode ist in den Editor kopiert](./sketches/hello-world/hello-world.ino)
@@ -97,10 +97,11 @@ Wrote 260464 bytes (190646 compressed) at 0x00000000 in 4.6 seconds (effective 4
 Hash of data verified.
 
 Leaving...
-Hard resetting via RTS pin...```
+Hard resetting via RTS pin...
+```
 
 
-##### Request for comments
+#### Request for comments
 
 Jep.
 
