@@ -28,7 +28,7 @@ Nach der ESP8266 Installation könnt ihr unter `Tools -> Boards` nun das Board `
 
 Im Anschluss könnt ihr über `Tools -> Port` den WeMos auswählen.
 1. Das Board vom USB trennen.
-2. Unter `Tools -> Port` schauen, welche bereits angezeigt werden.
+2. Unter `Tools -> Port` schauen, welche Ports bereits angezeigt werden.
 3. Das Board am USB anschließen.
 4. Jetzt kann der neue Port ausgewählt werden!  
 4.1 Wenn es mehrere neue Ports gibt, liegt das am Mac Adapter. Siehe Troubleshooting.
