@@ -56,7 +56,7 @@ Vorbedingung:
 - Ihr wisst, wo sich der [Upload Button](https://github.com/rainerknabenbauer/iot/blob/master/resources/arduino_ide_explained.png) befindet.
 - [Beispielcode](./sketches/hello-world/hello-world.ino) ist in den Editor kopiert.
 
-Wenn ihr keine Ahnung habt, wie auf eurem Computer der Port heißt, keine Panik. Wir sind jetzt genau einen Schritt davon entfernt, Code auf unserem Mikrokontroller auszuführen. Das machen wir uns hier zu nutze und probieren einfach einen Port nach dem anderen. Ihr könnt dabei nichts kaputt machen, im Fehlerfall schlägt der Verbindungsaufbau fehl. Ihr könnt einfach einen Port nach dem anderen anwählen und dabei jeweils den Upload für einen Verbindungstest klicken. Bei mir heißt der Port aktuell `/dev/cu.wchusbserial141230`. Ein erfolgreicher Upload sieht im Terminal so aus: 
+Wenn ihr keine Ahnung habt, wie auf eurem Computer der Port heißt, keine Panik. Wir sind jetzt genau einen Schritt davon entfernt, Code auf unserem Mikrokontroller auszuführen. Das machen wir uns hier zu nutze und probieren einfach einen Port nach dem anderen. Ihr könnt dabei nichts kaputt machen, im Fehlerfall schlägt der Verbindungsaufbau fehl. Ihr könnt einfach einen Port nach dem anderen anwählen und dabei jeweils den Upload Button für einen Verbindungstest klicken. Bei mir heißt der Port aktuell `/dev/cu.wchusbserial141230`. Ein erfolgreicher Upload sieht im Terminal so aus: 
 
 ```Executable segment sizes:
 IROM   : 227612          - code in flash         (default or ICACHE_FLASH_ATTR) 
