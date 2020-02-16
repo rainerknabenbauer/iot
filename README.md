@@ -47,7 +47,7 @@ Upload kompiliert den Sketch und lädt das Programm auf den Mikrokontroller. Sob
 Auf [arduino.cc](https://www.arduino.cc/en/Tutorial/BuiltInExamples) könnt ihr euch an Beispielen ansehen, was noch so geht. 
 
 ### Experimente
-- Filme werden mit 30 Bildern pro Sekunde im Kino für ein flüssiges Bild abgespielt. Wenn die LED 30x die Sekunde blinkt, sieht das Auge dann ein durchgehendes Leuchten? [Lösung](./sketches/experiment-traegheit-des-auges/experiment-traegheit-des-auges.ino)
+- Filme werden mit 30 Bildern pro Sekunde für ein flüssiges Bild im Kino abgespielt. Wenn die LED 30x die Sekunde blinkt, sieht das Auge dann auch ein durchgehendes Leuchten? [Lösung](./sketches/experiment-traegheit-des-auges/experiment-traegheit-des-auges.ino)
 
 
 ### Troubleshooting
