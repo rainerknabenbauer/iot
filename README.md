@@ -104,5 +104,4 @@ Hard resetting via RTS pin...
 
 ### Request for comments
 
-Jep.
-
+Jep. Das ist ein offenes Projekt. Nutzt [GitHub Desktop](https://desktop.github.com/) und [stellt eure Programme anderen zur Verfügung](https://github.com/rainerknabenbauer/iot/pulls)!
