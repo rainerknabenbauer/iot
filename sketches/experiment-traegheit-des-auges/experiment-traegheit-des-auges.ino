@@ -11,7 +11,7 @@ void setup() {
 void loop() {                             // Alles innerhalb von loop() wird wiederholt durchlaufen
 
     digitalWrite(BUILTIN_LED, HIGH);      // Die LED bekommt Strom
-    delay(17);                            // Das Programm wartet für 500 Millisekunden
+    delay(17);                            // Das Programm wartet für 1/60 Sekunde
     digitalWrite(BUILTIN_LED, LOW);       // Die LED bekommt keinen Strom
-    delay(17);                            // Das Programm wartet für 500 Millisekunden
+    delay(17);                            // Das Programm wartet für 1/60 Sekunde
 }
