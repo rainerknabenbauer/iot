@@ -2,7 +2,7 @@
 
 ### Basics
 
-Die Arduino IDE kommt mit ein paar vorinstallierten Boards. Welche das sind, könnt ihr unter `Tools -> Boards` direkt ansehen. Damit wir auf dem WeMos D1 Mini Code ausführen können, müssen wir zuerst das `ESP8266` Board für die Arduino IDE installieren.
+Die Arduino IDE kommt mit ein paar vorinstallierten Boards. Welche das sind, könnt ihr unter `Tools -> Boards` direkt ansehen. Damit wir auf dem WeMos D1 Mini Code ausführen können, müssen wir zuerst das `ESP8266` Board für die Arduino IDE installieren. [Download the Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
 ### Make USB great again
 
