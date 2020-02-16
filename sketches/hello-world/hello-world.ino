@@ -6,13 +6,12 @@
  
 void setup() {
   pinMode(BUILTIN_LED, OUTPUT);
-  pinMode(D0, WAKEUP_PULLUP);
 }
 
-void loop() {
+void loop() {                              // Alles innerhalb von loop() wird wiederholt durchlaufen
 
-    digitalWrite(BUILTIN_LED, HIGH);
-    delay(500);   // 500 steht für 500ms -> Als also eine halbe Sekunde aus..
-    digitalWrite(BUILTIN_LED, LOW);
-    delay(500);   // ... eine halbe Sekunde an. Probiert gleich mal, die Zahl zu ändern und hochzuladen!
+    digitalWrite(BUILTIN_LED, HIGH);       // Die LED bekommt Strom
+    delay(500);                            // Das Programm wartet für 500 Millisekunden
+    digitalWrite(BUILTIN_LED, LOW);        // Die LED bekommt keinen Strom
+    delay(500);                            // Das Programm wartet für 500 Millisekunden
 }
