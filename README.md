@@ -53,7 +53,7 @@ Auf [arduino.cc](https://www.arduino.cc/en/Tutorial/BuiltInExamples) könnt ihr 
 ### Troubleshooting
 #### Ich find den richtigen Port nicht ¯\_(ツ)_/¯
 Vorbedingung:
-- Ihr wisst, wo sich der Upload Button befindet. [Bild](https://github.com/rainerknabenbauer/iot/blob/master/resources/arduino_ide_explained.png)
+- Ihr wisst, wo sich der [Upload Button](https://github.com/rainerknabenbauer/iot/blob/master/resources/arduino_ide_explained.png) befindet.
 - [Beispielcode](./sketches/hello-world/hello-world.ino) ist in den Editor kopiert.
 
 Wenn ihr keine Ahnung habt, wie auf eurem Computer der Port heißt, keine Panik. Wir sind jetzt genau einen Schritt davon entfernt, Code auf unseren Mikrokontroller hochzuladen. Das machen wir uns hier zu nutze und probieren einfach einen Port nach dem anderen. Ihr könnt dabei nichts kaputt machen, im Fehlerfall schlägt der Verbindungsaufbau fehl. Bei mir ist es aktuell `/dev/cu.wchusbserial141230`. Ein erfolgreicher Upload sieht im Terminal so aus: 
