@@ -43,7 +43,7 @@ In der Softwareentwicklung nennt sich der grundlegendste Systemtest 'Hello World
 3. `Tools -> Port` den Port auswählen.
 4. Auf `Upload` klicken [Bild](https://github.com/rainerknabenbauer/iot/blob/master/resources/arduino_ide_explained.png)
 
-Upload kompiliert den Sketch und lädt das Programm auf den Kontroller. Sobald ihr `Writing at 0x00000000... (8 %)` seht, seid ihr starklar! In der Voreinstellung blinkt die LED nun im Sekundentakt - sobald Upload und Neustart abgeschlossen sind. Jetzt könnt ihr wie gewohnt das blinken der LED mit z. B. for-Schleifen steuern.
+Upload kompiliert den Sketch und lädt das Programm auf den Kontroller. Sobald ihr `Writing at 0x00000000... (8 %)` seht, seid ihr starklar! In der Voreinstellung blinkt die LED nun im Sekundentakt - sobald Upload und Neustart abgeschlossen sind. Jetzt könnt ihr wie gewohnt das blinken der LED mit z. B. for-Schleifen steuern. Auf [arduino.cc](https://www.arduino.cc/en/Tutorial/BuiltInExamples) könnt ihr euch an Beispielen ansehen, was noch so geht. 
 
 ### Experimente
 - Filme werden mit 30 Bildern pro Sekunde im Kino abgespielt. Wenn die LED 30x die Sekunde blinkt, sieht das Auge dann ein durchgehendes Leuchten? 
